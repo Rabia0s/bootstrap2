@@ -1,0 +1,158 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    position: sticky;
+    top: 0;
+    width: 97%;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar-logo {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    flex: 1;
+    font-style: italic;
+    font-style: italic; /* Sadece logo metnini italik yapar */
+    font-size: 24px; /* İstediğiniz boyutu ayarlayabilirsiniz */
+    color: #333; /* İstediğiniz rengi ayarlayabilirsiniz */
+}
+
+.navbar-logo a {
+    text-decoration: none;
+    color: #333;
+    font-style: italic; /* Sadece logo metnini italik yapar */
+    font-size: 24px; /* İstediğiniz boyutu ayarlayabilirsiniz */
+    color: #333; /* İstediğiniz rengi ayarlayabilirsiniz */
+}
+
+.navbar-search {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input {
+    width: 68%;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 22px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between cards */
+    max-width: 500px; /* Adjusted for smaller cards */
+    width: 100%;
+    margin: 20px auto; /* Center the container */
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-pic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.location {
+    color: #999;
+    font-size: 12px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.action-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.card-content p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.card-content strong {
+    font-weight: bold;
+}
